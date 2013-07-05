@@ -1,0 +1,63 @@
+BODY.agent {
+	BACKGROUND: url(images/bg_menu.gif) repeat-y; MARGIN: 0px
+}
+BODY.master {
+	BACKGROUND: url(images/bg_menu_master.gif) repeat-y; MARGIN: 0px
+}
+BODY.super {
+	BACKGROUND: url(images/bg_menu_super.gif) repeat-y; MARGIN: 0px
+}
+DIV.agent {
+	BACKGROUND: url(images/bg_button.gif) no-repeat; WIDTH: 200px; HEIGHT: 20px
+}
+DIV.master {
+	BACKGROUND: url(images/bg_button_master.gif) no-repeat; WIDTH: 200px; HEIGHT: 20px
+}
+DIV.super {
+	BACKGROUND: url(images/bg_button_super.gif) no-repeat; WIDTH: 200px; HEIGHT: 20px
+}
+TD.agent {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 9pt; TEXT-TRANSFORM: uppercase; WIDTH: 170px; CURSOR: pointer; COLOR: orange; FONT-FAMILY: Tahoma
+}
+TD.master {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 9pt; TEXT-TRANSFORM: uppercase; WIDTH: 170px; CURSOR: pointer; COLOR: white; FONT-FAMILY: Tahoma
+}
+TD.super {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 9pt; TEXT-TRANSFORM: uppercase; WIDTH: 170px; CURSOR: pointer; COLOR: white; FONT-FAMILY: Tahoma
+}
+DIV {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma, verdana
+}
+A.agent {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Tahoma, Verdana; TEXT-DECORATION: none
+}
+A.agent:link {
+	COLOR: white
+}
+A.agent:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.master {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #f0e68c; FONT-FAMILY: Tahoma, Verdana; TEXT-DECORATION: none
+}
+A.master:link {
+	COLOR: #f0e68c
+}
+A.master:hover {
+	COLOR: #ffa07a; TEXT-DECORATION: none
+}
+A.super {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #f0e68c; FONT-FAMILY: Tahoma, Verdana; TEXT-DECORATION: none
+}
+A.super:link {
+	COLOR: #f0e68c
+}
+A.super:hover {
+	COLOR: #ffa07a; TEXT-DECORATION: none
+}
+TABLE.link TD {
+	HEIGHT: 20px
+}
+TABLE.link TD.separator {
+	HEIGHT: 10px
+}

@@ -1,0 +1,14 @@
+/* 
+    Document   : font
+    Created on : Feb 15, 2013, 11:12:52 AM
+    Author     : victor
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@font-face {  
+  font-family: 'Sans-Narrow';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Sans-Narrow'), url(../fonts/Sans-Narrow.woff) format('woff');
+}
+

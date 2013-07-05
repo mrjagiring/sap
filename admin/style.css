@@ -1,0 +1,165 @@
+body{
+	margin:0; padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+#wrapper{
+	width:960px;
+	margin:0 auto;
+}
+
+#header{
+	text-align:right;
+	height:30px;
+	background:url(images/header.jpg) bottom;
+	color:#018101;
+	font-weight:bold;
+	padding:5px 0 0 0;
+}
+
+	#header a{color:#666666; text-decoration:none;}
+	#header a:hover{color:#018101;}
+	
+#nav{
+	width:260px;
+	float:left;
+	margin:10px 0 0 0;
+}
+	#nav #list{background:url(images/mid_nav_bg.jpg);
+		min-height:20px;
+	}
+		#nav #list p{padding:0 30px 0 0; margin:0 0 0 0;
+			font-size:16px;
+			text-align:right;
+		}
+		#nav #list a.parent{font-weight:bold; color:#379437;}
+		#nav #list a.parent:hover{color:#999999;}
+		
+		#nav #list ul{text-align:right; list-style:none; margin:5px 30px 5px 30px; padding:0 10px 0 0;
+			border-top:solid 2px #999999;
+		}
+			#nav #list ul li{
+				margin:3px 0 0 0;
+			}
+			#nav #list ul li.bullet{
+			font-size:11px;
+			list-style:disc;
+			}
+			#nav #list ul li a{
+				color:#333333;
+
+			}
+				#nav #list ul li a:hover{color:#379437;}
+		
+	
+	#nav #list .top{background:url(images/top_nav_bg.jpg) no-repeat top; height:25px;}
+	#nav #list .bot{background:url(images/bot_nav_bg.jpg) no-repeat bottom; height:25px;}
+
+#content{
+	float:right;
+	width:630px;
+	min-height:200px;
+	padding:15px;
+}
+	#wp_home{text-align:center; color:#87b927;}
+	#wp_home a{color:#87b927;}
+	#wp_home a:hover{text-decoration:underline;}
+	
+	#wp_crop{
+		float:left;
+		margin:10px 0 0 0;
+		padding:5px;
+		border:solid 1px #999999;
+	}
+	
+	#crop_result{
+		float:left;
+		margin:10px 0 0 20px;
+		padding:5px;
+		border:solid 1px #999999;
+	}
+	
+	#wp_img{
+		float:left;
+		margin:0 15px 5px 0;
+		padding:5px;
+		border:solid 1px #999999;
+	}
+
+#form_login{
+	margin:auto;
+	width:300px;
+	min-height:120px;
+	background:#CCCCCC;
+	border:solid 1px #CCCCCC;
+	-moz-border-radius:10px;
+	padding:20px 0 20px 0;
+	text-align:center;
+}
+	#form_login table{margin:0 auto;}
+
+table tr{background:#bfd9c8; font-size:12px;}
+table thead{background:#70c38b;}
+table tr p{padding:0; margin:0;}
+table{margin:10px 0 0 0;}
+
+#img_alb{
+	padding:3px;
+	text-align:center;
+	min-width:100px;
+	float:left;
+	margin:0 10px 5px 0;
+}
+#img_alb h4{padding:5px; margin:0;}
+#img_alb img{
+	padding:3px;
+	border: solid 1px #666666;	
+}
+/*other*/
+a{text-decoration:none;}
+.clear{clear:both;}
+form{margin:0; padding:0;}
+.bold{font-weight:bold;}
+h1,h2,h3{padding:0; margin:0;}
+.italic{font-style:italic; font-size:16px; color:#979797}
+.small{font-size:12px; color:#666666; font-style:italic;}
+#sub_name, #sub_nama{color:#018101; font-weight:bold; cursor:pointer;}
+a.list_page{margin:0 0 0 10px; font-weight:bold; color:#666666;}
+a.list_page:hover{text-decoration:underline;}
+/*paging*/
+div.pagination {
+	padding: 3px;
+	margin: 20px 0 20px 0;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #509f69;
+	
+	text-decoration: none; /* no underline */
+	color: #509f69;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #000;
+
+	color: #000;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+		border: 1px solid #509f69;
+		
+		font-weight: bold;
+		background-color: #509f69;
+		color: #FFF;
+	}
+	div.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #EEE;
+	
+		color: #DDD;
+	}
+	
